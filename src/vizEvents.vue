@@ -203,9 +203,4 @@ div.tooltip
 .year-label
   font-size: 0.8em
   fill: #999
-
-.countries
-  stroke: #fff
-  stroke-linejoin: round
-  fill: #eee
 </style>
