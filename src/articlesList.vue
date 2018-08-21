@@ -3,7 +3,7 @@
     <div v-if="articles.length > 0">
       <div class="columns" v-for="article in articles">
         <div class="column has-text-left">
-          <a :href="article.url">{{ article.title }}</a>
+          <router-link :to="{ name: 'single-article', params: { slug: article.url }}">{{ article.title }}</router-link>
         </div>
         <div class="column is-1">
           <span class="tag is-light">{{article.lang}}</span>

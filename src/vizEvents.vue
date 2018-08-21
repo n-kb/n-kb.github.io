@@ -203,4 +203,7 @@ div.tooltip
 .year-label
   font-size: 0.8em
   fill: #999
+
+.nodes
+  cursor: pointer
 </style>
