@@ -35,6 +35,10 @@
 					<div class="has-text-centered">
 						<vizevents :nodes="nodes"></vizevents>
 					</div>
+					<hr/>
+					<div class="has-text-centered">
+						<articleslist :articles="articles"></articleslist>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -43,15 +47,17 @@
 
 <script>
 	import vizevents from './vizEvents.vue'
+	import articleslist from './articlesList.vue'
 	import * as d3 from 'd3'
 	import moment from 'moment'
 
 	export default {
 		name: 'home',
-		components: {vizevents},
+		components: {vizevents, articleslist},
 		data () {
 			return {
 				all_events: [],
+				articles: [],
 				events_number: {
 					"Training": 0,
 					"Conference": 0,
@@ -90,12 +96,12 @@
 			});
 			d3.csv("src/assets/articles.csv").then(function(data) {
 		      	data.forEach(function(article){
-			        var article_date = moment(article.date);
+			        var article_date = moment(article.date, "MMMM D, YYYY");
 			        self.articles.push({
-			          "title": event.title,
-			          "lang": event.lang,
-			          "url": event.url,
-			          "date": event_date,
+			          "title": article.title,
+			          "lang": article.lang,
+			          "url": article.url,
+			          "date": article_date.format("MMMM Do, YYYY"),
 			    	})
 		      	});
 			});
