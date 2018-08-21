@@ -22,32 +22,62 @@
               </a>
             </div>
           </div>
-          <div>
-            <a href="https://twitter.com/nicolaskb" target="_blank">
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-              <span class="is-size-7">
-                Tweet
-              </span> 
-            </a>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/nicolas.kayserbril/" target="_blank">
-              <span class="icon">
-                <i class="fab fa-facebook"></i>
-              </span>
-              <span class="is-size-7">
-                Share
-              </span>
-            </a>
-          </div>
+          <social-sharing :url="url"
+                      :title="title"
+                      :description="description"
+                      :quote="quote"
+                      twitter-user="nicolaskb"
+                      inline-template>
+            <div>
+              <div class="columns">
+                <div class="column is-half no-padding">
+                  <a>
+                    <network network="email">
+                        <i class="fa fa-envelope"></i> <span class="is-size-7">Email</span>
+                    </network>
+                  </a>
+                </div>
+                <div class="column is-half no-padding">
+                  <a>
+                    <network network="facebook">
+                        <i class="fab fa-facebook"></i> <span class="is-size-7">Share</span>
+                    </network>
+                  </a>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-half no-padding">
+                  <a>
+                    <network network="twitter">
+                        <i class="fab fa-twitter"></i> <span class="is-size-7">Tweet</span>
+                    </network>
+                  </a>
+                </div>
+                <div class="column is-half no-padding">
+                  <a>
+                    <network network="linkedin">
+                        <i class="fab fa-linkedin"></i> <span class="is-size-7">Linkedin</span>
+                    </network>
+                  </a>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-half no-padding">
+                  <a>
+                    <network network="reddit">
+                        <i class="fab fa-reddit"></i> <span class="is-size-7">Reddit</span>
+                    </network>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </social-sharing>
           <hr>
           <div>
             <span class="is-size-7">
               Permalink
             </span>
-            <input class="input is-small" readonly value="http://">
+            <input class="input is-small" readonly :value="url">
           </div>
         </div>
       </div>
@@ -57,15 +87,29 @@
 
 <script>
 
+var SocialSharing = require('vue-social-sharing');
+
 export default {
   name: 'shareitem',
   data(){
     return {
-      showShare: false
+      showShare: false,
+      url: window.location
     }
+  },
+  components: {
+    SocialSharing
   },
   props: {
     title: {
+      default: "",
+      type: String
+    },
+    description: {
+      default: "",
+      type: String
+    },
+    quote: {
       default: "",
       type: String
     },
@@ -90,4 +134,7 @@ export default {
 .share-card
   position: absolute
   z-index: 3
+
+.no-padding
+  padding: 0
 </style>
