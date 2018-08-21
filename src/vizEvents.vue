@@ -1,19 +1,5 @@
 <template>
   <div>
-    <div class="columns">
-      <div class="column" @click="mapActive=false">
-        <a>Timeline view</a>
-        <span class="icon">
-          <i class="fas fa-calendar-alt"></i>
-        </span>
-      </div>
-      <div class="column" @click="mapActive=true">
-        <a>Map view</a>
-        <span class="icon">
-          <i class="fas fa-globe-africa"></i>
-        </span>
-      </div>
-    </div>
     <div class="svg-container">
     </div>
   </div>
@@ -28,10 +14,7 @@ export default {
   name: 'vizevents',
   data(){
     return {
-      mapActive: false,
-      simulation: null,
-      map: null,
-      projection: null
+      simulation: null
     }
   },
   props: {
@@ -41,15 +24,10 @@ export default {
     }
   },
   watch: {
-    mapActive () {
-      if (this.mapActive == false) { this.createTimeline() }
-      else { this.createMap() }
-    },
     nodes () {
       if (this.nodes.length > 0) {
-        // Paints the map first
-        this.addMap()
-        // addMap calls the other init functions
+        this.createViz()
+        this.createTimeline()
       }
     }
   },
@@ -68,13 +46,6 @@ export default {
   },
   methods: {
     createTimeline () {
-
-      // Hides map
-      if (this.map != null) {
-          this.map.transition()
-              .duration(200)
-              .attr("transform", "translate(-2000,0)");
-            }
 
       var current_year = moment().year();
 
@@ -113,53 +84,6 @@ export default {
                         .force('collision', d3.forceCollide(6))
                         .force("charge_force", d3.forceManyBody().strength(1))
                         .alphaTarget(1).restart()
-    },
-    createMap() {
-      // removes the years from the left of the vis
-      this.svg.selectAll('.year-label')
-              .remove()
-      // Shows background map
-      this.map.transition()
-              .duration(200)
-              .attr("transform", "translate(0,0)");
-
-      // Animates points to the map
-      var self = this
-      this.simulation.force('collision', d3.forceCollide(-1))
-                      .force("charge_force", d3.forceManyBody().strength(-1))
-                      .force('x', d3.forceX().x(function(d) {
-                          return self.projection([d.lon, d.lat])[0] - 100;
-                        }))
-                      .force('y', d3.forceY().y(function(d) {
-                            return self.projection([d.lon, d.lat])[1] + 100;
-                          }))
-                        .alphaTarget(0.8).restart()
-        this.svg.append("circle")
-                .attr("r", 4)
-                .style("fill", "red")
-                .attr("transform", "translate(" + self.projection([ 10.1657900, 36.8189700 ]) + ")")
-    },
-    addMap() {
-      var self = this
-      d3.json("src/assets/countries.geo.json").then(function(data){
-        self.projection = d3.geoNaturalEarth1()
-                          .scale(500)
-                          .translate([self.width / 2, self.height / 2])
-                          .center([10,40])
-        var geoGenerator = d3.geoPath()
-                              .projection(self.projection);
-        self.map = self.svg.selectAll('path')
-                  .data(data.features)
-                  .enter()
-                  .append('path')
-                  .attr('d', geoGenerator)
-                  .attr("transform", "translate(-2000,0)")
-                  .attr("class", "countries")
-        self.createViz();
-        self.createTimeline();
-      }).catch(function(error){
-        console.log(error)
-      });
     },
     createViz () {
 
