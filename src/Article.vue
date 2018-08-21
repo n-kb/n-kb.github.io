@@ -5,7 +5,7 @@
       <div class="container is-fluid">
         <div class="columns">
           <div class="column is-2 is-offset-10">
-            <shareitem :title="title" :shareText="share"></shareitem>
+            <shareitem :title="title" :shareText="share" :description="description"></shareitem>
           </div>
         </div>
         <div class="columns">
@@ -49,7 +49,8 @@ export default {
       date: "",
       source: "",
       intro: "",
-      share: ""
+      share: "",
+      description: ""
     }
   },
   created() {
@@ -63,6 +64,7 @@ export default {
       self.date = data.date
       self.intro = data.intro
       self.share = data.share
+      self.description = data.description
     }).catch(function(error){
       console.log(error)
     });

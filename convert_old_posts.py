@@ -16,15 +16,21 @@ for filename in onlyfiles:
 	file_string = file.read()
 	matchObj = re.search( r'title: \"(.+)\"', file_string, re.M)
 	if matchObj:
-	   title = matchObj.group(1)
+		title = matchObj.group(1)
 	else:
-	   title = ""
+		title = ""
 
 	matchObj = re.search( r'image: \"images\/(.+)\"', file_string, re.M)
 	if matchObj:
-	   image = matchObj.group(1)
+		image = matchObj.group(1)
 	else:
-	   image = ""
+		image = ""
+
+	matchObj = re.search( r'description: \"(.+)\"', file_string, re.M)
+	if matchObj:
+		description = matchObj.group(1)
+	else:
+		description = ""
 	print (filename, title, image, date_format)
 
 	# Removes the metadata from the markdown file
@@ -50,5 +56,6 @@ for filename in onlyfiles:
 				"image": image,
 				"intro": intro,
 				"share": share,
-				"text": text
+				"text": text,
+				"description": description
 			}, fp)

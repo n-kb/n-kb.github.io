@@ -25,7 +25,6 @@
           <social-sharing :url="url"
                       :title="title"
                       :description="description"
-                      :quote="quote"
                       twitter-user="nicolaskb"
                       inline-template>
             <div>
@@ -106,10 +105,6 @@ export default {
       type: String
     },
     description: {
-      default: "",
-      type: String
-    },
-    quote: {
       default: "",
       type: String
     },
