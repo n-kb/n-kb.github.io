@@ -88,6 +88,17 @@
 			    	self.events_number[event.type]++
 		      	});
 			});
+			d3.csv("src/assets/articles.csv").then(function(data) {
+		      	data.forEach(function(article){
+			        var article_date = moment(article.date);
+			        self.articles.push({
+			          "title": event.title,
+			          "lang": event.lang,
+			          "url": event.url,
+			          "date": event_date,
+			    	})
+		      	});
+			});
 		},
 		watch: {
 			all_events: function() {
