@@ -97,6 +97,9 @@ export default {
         if (d.url != '') {
           title = `<a href="${d.url}" target="_blank">${d.title}</a>`
         }
+        if (d.location != '') {
+          title += ', ' + d.location
+        }
         return `
           <div class="card">
             <header class="card-header">
@@ -111,7 +114,7 @@ export default {
             </header>
             <div class="card-content">
               <div class="content">
-                ${title}, ${d.location}
+                ${title}
               </div>
               <time>${moment(d.date).format("MMMM Do YYYY")}</time>
             </div>
