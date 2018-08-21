@@ -33,7 +33,12 @@ export default {
   },
   computed: {
     width () {
-      return 960;
+      var viewport_w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      if (viewport_w < 860) {
+        return viewport_w;
+      } else {
+        return 860;
+      }
     },
     height () {
       return 500;
@@ -148,11 +153,22 @@ export default {
                  .style("opacity", 1)
                  .style("z-index", 10);
                div.html(makeCard(d))
-                 .style("left", (d3.event.pageX) + "px")
+                 .style("left", tooltipX)
                  .style("top", (d3.event.pageY - 28) + "px");
                })
               
       var self = this;
+
+      function tooltipX() {
+        if (d3.event.pageX > self.width - 200) {
+          return (d3.event.pageX - 200) + "px"
+        } else {
+          return (d3.event.pageX) + "px"
+
+        }
+        
+      }
+
       function dragstarted(d)
        { 
           if (!d3.event.active) self.simulation.alphaTarget(0).restart();
