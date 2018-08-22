@@ -81,8 +81,6 @@
 	import articleslist from './articlesList.vue'
 	import * as d3 from 'd3'
 	import moment from 'moment'
-	import articlesData from './assets/articles.csv'
-	import eventsData from './assets/events.csv'
 
 	export default {
 		name: 'home',
@@ -112,7 +110,7 @@
 		},
 		created () {
 			var self = this
-			d3.csv(eventsData).then(function(data) {
+			d3.csv('./public/assets/events.csv').then(function(data) {
 		      	data.forEach(function(event){
 			        var event_date = moment(event.startdate);
 			        // Creates the object needed for the visualization
@@ -131,7 +129,7 @@
 			    	self.events_number[event.type]++
 		      	});
 			});
-			d3.csv(articlesData).then(function(data) {
+			d3.csv('./public/assets/articles.csv').then(function(data) {
 		      	data.forEach(function(article){
 			        var article_date = moment(article.date, "MMMM D, YYYY");
 			        self.articles.push({
