@@ -58,8 +58,17 @@ export default {
 
     // Fetches the markdown file
     var self = this
-    d3.json("./public/articles/" + slug + ".json").then(function(data) {
+    var json_path = "./public/articles/" + slug + ".json"
+    var is_prerendered = false
+    if (window.location.pathname.slice(-1) == "/") {
+      json_path = "../public/articles/" + slug + ".json"
+      is_prerendered = true
+    }
+    d3.json(json_path).then(function(data) {
       self.source = data.text
+      if (is_prerendered) {
+        self.source = self.source.replace("./public/images/", "../public/images/")
+      }
       self.title = data.title
       self.date = data.date
       self.intro = data.intro
