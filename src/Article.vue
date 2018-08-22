@@ -58,7 +58,7 @@ export default {
 
     // Fetches the markdown file
     var self = this
-    d3.json("src/articles/" + slug + ".json").then(function(data) {
+    d3.json("./public/articles/" + slug + ".json").then(function(data) {
       self.source = data.text
       self.title = data.title
       self.date = data.date

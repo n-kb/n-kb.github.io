@@ -110,7 +110,7 @@
 		},
 		created () {
 			var self = this
-			d3.csv("src/assets/events.csv").then(function(data) {
+			d3.csv("./public/assets/events.csv").then(function(data) {
 		      	data.forEach(function(event){
 			        var event_date = moment(event.startdate);
 			        // Creates the object needed for the visualization
@@ -129,7 +129,7 @@
 			    	self.events_number[event.type]++
 		      	});
 			});
-			d3.csv("src/assets/articles.csv").then(function(data) {
+			d3.csv("./public/assets/articles.csv").then(function(data) {
 		      	data.forEach(function(article){
 			        var article_date = moment(article.date, "MMMM D, YYYY");
 			        self.articles.push({
