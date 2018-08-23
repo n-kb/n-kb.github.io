@@ -23,8 +23,7 @@ let readFile = (filename) => {
                         routes.push("/" + row[1])
                     }
                 })
-                resolve(["/", "/academia"])
-                //resolve(routes)
+                resolve(routes)
             }
         });
     });
@@ -168,7 +167,7 @@ module.exports = readFile('./public/assets/articles.csv')
                         renderAfterTime: 10000,
                         //renderAfterElementExists: "#isLoaded",
                         maxConcurrentRoutes: 4,
-                        headless:false
+                        headless:true
                     })
                 }),
                 new webpack.DefinePlugin({
