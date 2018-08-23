@@ -140,6 +140,7 @@ module.exports = readFile('./public/assets/articles.csv')
                                   <meta property="og:image" content="./public/images/share.png">
                                   <meta name="twitter:image" content="./public/images/share.png">
                                   <meta name="author" content="Nicolas Kayser-Bril" />
+                                  <meta name="twitter:card" content="summary_large_image">
                                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
                                   <title>Nicolas Kayser-Bril, datajournalist</title>
                                 </head>
