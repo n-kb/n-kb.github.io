@@ -16,10 +16,10 @@
     "d3": "^5.5.0",
     "moment": "^2.22.2",
     "papaparse": "^4.6.0",
-    "prerender-spa-plugin": "^3.3.0",
     "vue": "^2.5.11",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.1",
+    "vue-simple-headful": "^2.2.6",
     "vue-social-sharing": "^2.3.3"
   },
   "browserslist": [
@@ -36,7 +36,9 @@
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
     "node-sass": "^4.5.3",
+    "prerender-spa-plugin": "^3.3.0",
     "sass-loader": "^6.0.6",
+    "uglifyjs-webpack-plugin": "^1.3.0",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",

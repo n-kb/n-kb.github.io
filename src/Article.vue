@@ -31,12 +31,20 @@
 
 <script>
 
-import * as d3 from 'd3'
+import { json } from 'd3'
 import VueMarkdown from 'vue-markdown'
 import navbar from './Navbar.vue'
 import shareitem from './shareItem.vue'
 
 export default {
+  headful: {
+    title: "",
+    description: "",
+    image: "",
+    head: {
+      'meta[charset]': { charset: 'utf-8' },
+    }
+  },
   name: 'single-article',
   components: {
     VueMarkdown,
@@ -50,6 +58,7 @@ export default {
       source: "",
       intro: "",
       share: "",
+      image: "",
       description: ""
     }
   },
@@ -64,16 +73,24 @@ export default {
       json_path = "../public/articles/" + slug + ".json"
       is_prerendered = true
     }
-    d3.json(json_path).then(function(data) {
+    json(json_path).then(function(data) {
       self.source = data.text
       if (is_prerendered) {
-        self.source = self.source.replace("./public/images/", "../public/images/")
+        function replaceAll(str, find, replace) {
+            return str.replace(new RegExp(find, 'g'), replace);
+        }
+        self.source = replaceAll(self.source, "./public/images/", "../public/images/")
       }
+      
+      self.headful.image = "./public/images/" + data.image
       self.title = data.title
       self.date = data.date
       self.intro = data.intro
       self.share = data.share
       self.description = data.description
+
+      self.headful.title = data.title
+      self.headful.description = data.description
     }).catch(function(error){
       console.log(error)
     });
