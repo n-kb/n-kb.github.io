@@ -6,8 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.dev.config.js --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --hide-modules",
+    "deploy": "npm run build && git ac -m 'Updates' && git push github master"
   },
   "dependencies": {
     "bulma": "^0.7.1",
