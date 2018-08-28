@@ -136,9 +136,9 @@ module.exports = readFile('./public/assets/articles.csv')
                                   <meta itemprop="description" content="Data-driven journalist, author, trainer, public speaker and project manager.">
                                   <meta property="og:description" content="Data-driven journalist, author, trainer, public speaker and project manager.">
                                   <meta name="twitter:description" content="Data-driven journalist, author, trainer, public speaker and project manager.">
-                                  <meta itemprop="image" content="./public/images/share.png">
-                                  <meta property="og:image" content="./public/images/share.png">
-                                  <meta name="twitter:image" content="/public/images/share.png">
+                                  <meta itemprop="image" content="https://blog.nkb.fr/public/images/share.png">
+                                  <meta property="og:image" content="https://blog.nkb.fr/public/images/share.png">
+                                  <meta name="twitter:image" content="https://blog.nkb.fr/public/images/share.png">
                                   <meta name="author" content="Nicolas Kayser-Bril" />
                                   <meta name="twitter:card" content="summary_large_image">
                                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
