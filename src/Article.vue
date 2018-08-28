@@ -82,7 +82,7 @@ export default {
         self.source = replaceAll(self.source, "./public/images/", "../public/images/")
       }
       
-      self.headful.image = "./public/images/" + data.image
+      self.headful.image = "https://blog.nkb.fr/public/images/" + data.image
       self.title = data.title
       self.date = data.date
       self.intro = data.intro

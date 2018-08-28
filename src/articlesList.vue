@@ -3,7 +3,8 @@
     <div v-if="articles.length > 0">
       <div class="columns" v-for="article in articles">
         <div class="column has-text-left">
-          <router-link :to="{ name: 'single-article', params: { slug: article.url }}">{{ article.title }}</router-link>
+          <router-link v-if="article.is_external == 0" :to="{ name: 'single-article', params: { slug: article.url }}">{{ article.title }}</router-link>
+          <a v-else :href="article.url">{{ article.title }}</a>
           <span class="is-size-7 is-hidden-tablet">
             {{ article.date }}
           </span>

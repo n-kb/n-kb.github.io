@@ -1,68 +1,71 @@
-date,url,title,lang
-"July 20, 2018",pourquoi-les-femmes-sont-plus-petites,Pourquoi les femmes sont-elles plus petites que les hommes?,français
-"May 2, 2018",bouffes-bluffantes,Pourquoi j'ai écrit « Bouffes Bluffantes »,français
-"April 23, 2018",froschfresser,Froschfresser!,Deutsch
-"April 18, 2018",everyones-a-media,"Online, everyone's a media - Online journalism 3/3",English
-"April 17, 2018",sweatshop-integrated-newsroom,From digital sweatshops to the integrated newsroom - Online journalism 2/3,English
-"April 16, 2018",media-internet,The media and the internet: The history of a failure - Online journalism 1/3,English
-"April 13, 2018",denial,Denial,English
-"April 12, 2018",facing-evil,Facing evil,English
-"March 18, 2018",value-social-rank,Everything we know about price formation is wrong,English
-"March 14, 2018",global-trends-data,Global data sources,English
-"March 13, 2018",data-germany-europe,European and German data sources,English
-"February 25, 2018",macrine-et-pouton,La voie de Moscou,français
-"January 31, 2018",retour-a-quick,Retour à Quick,français
-"January 31, 2018",medias-numerique,Comment une industrie a raté le virage des données et du numérique,français
-"January 17, 2018",roots-of-fake-news,The roots of fake news,English
-"January 5, 2018",journalisme-post-verite,Le journalisme et la post-vérité,français
-"December 22, 2017",trust-transparency,Transparency does not beget trust - quite the opposite,English
-"December 4, 2017",how-i-overcame-fear-of-flying,How I overcame my fear of flying,English
-"December 3, 2017",development-aid,Why I'm still doing development aid,English
-"November 16, 2017",measuring-the-unmeasured,Measuring the unmeasured with data,English
-"November 1, 2017",leaving-google,Leaving Google: Here's how I did it.,English
-"October 9, 2017",the-magic-queendom-of-europe,The Magic Queendom of Europe,English
-"September 25, 2017",se-liberer-par-les-donnees,Il ne faut pas 'libérer les données'. Il faut se libérer par les données.,français
-"September 7, 2017",meyer-revisited,Meyer revisited,English
-"August 16, 2017",what-could-google-do,What could Google do? (If it cared about journalism),English
-"July 19, 2017",ich-bin-deutscher,Ich bin jetzt Deutscher,Deutsch
-"July 19, 2017",airport-controls,Airport controls,English
-"July 3, 2017",humanism-racism,The Humanist Paradox,English
-"June 22, 2017",nouvelles-georgie,Cinq nouvelles absurdes de Géorgie,français
-"June 2, 2017",les-cles-pour-comprendre,Les clés pour comprendre,français
-"June 1, 2017",things-learned-jpp,Things learned in 5 years of Journalism++,English
-"April 14, 2017",tribunal,La parole d'un arabe,français
-"April 10, 2017",academia,The collapse of academia,English
-"March 31, 2017",collaboration,Collaboration in journalism,English
-"March 9, 2017",il-faut-boycotter-les-elections,Pourquoi il faut boycotter les élections françaises,français
-"March 8, 2017",lettre-a-mes-amis-2,Lettre à mes amis,français
-"January 29, 2017",inventing-the-future,"Inventing the Future, by Nick Srnicek and Alex Williams",English
-"November 13, 2016",waiting-for-a-new-humanism,Waiting for a new Humanism,English
-"November 12, 2016",les-espoirs-inutiles,Les espoirs inutiles [nouvelle],français
-"October 13, 2016",ten-years-datajournalism,Celebrating 10 years of datajournalism,English
-"September 25, 2016",datajournalism-in-the-posth-truth-public-sphere,Data-driven journalism in the post-truth public sphere,English
-"September 4, 2016",road-to-authoritarianism,The road to authoritarianism,English
-"August 20, 2016",eastern-europe,Eastern Europe,English
-"July 11, 2016",offshore-journalism,The Offshore Journalism Toolkit,English
-"June 27, 2016",open-data,The power of open data,English
-"May 15, 2016",legitimacy-power,The new legitimacy of power,English
-"May 11, 2016",informer-avec-des-donnees-structurees,Informer avec des données structurées,français
-"April 13, 2016",data-free,"Free your data' is over. Now, we need data to be free.",English
-"April 10, 2016",when-to-engage-with-adversarial-organizations,When to engage with adversarial organizations,English
-"January 24, 2016",why-the-european-union-failed,Why the European Union failed,English
-"January 14, 2016",racist-cartoons,Racist cartoons,English
-"January 14, 2016",caricatures-racistes,Caricatures racistes,français
-"December 22, 2015",data-literacy,Don't ask too much from data literacy,English
-"December 8, 2015",confronting-authoritarianism,Confronting authoritarianism,English
-"November 28, 2015",la-logique-de-l-autoritarisme,La logique de l'autoritarisme,français
-"November 24, 2015",european-union,Living without the European Union,English
-"November 4, 2015",value-chain-data-news,The value chain of data in the news industry,English
-"September 20, 2015",individual-responsibility-and-climate-change,Individual responsibility and climate change,English
-"September 8, 2015",datajournalism,Datajournalism,English
-"August 31, 2015",datajournalism-rulings,String of rulings bodes ill for the future of journalism in Europe,English
-"August 25, 2015",European-journalism,Why there is no European journalism,English
-"August 16, 2015",dani-rodrik-globalization-paradox,Dani Rodrik's Globalization Paradox,English
-"July 27, 2015",satamedia,ECHR ruling might have a chilling effect on data journalism,English
-"July 25, 2015",speed,Speed and the slowdown of History,English
-"July 22, 2015",why-start-a-blog-in-2015,Why start a blog in 2015,English
-"July 15, 2015",Singularity,Singularity,English
-"May 10, 2015",journalism-schools,Journalism schools must become information management schools,English
+"date","url","title","lang","is_external"
+"July 20, 2018","pourquoi-les-femmes-sont-plus-petites","Pourquoi les femmes sont-elles plus petites que les hommes?","français",0
+"July 18, 2018","https://blog.nkb.fr/oysters/","Le silence des mollusques","français",1
+"July 18, 2018","https://blog.nkb.fr/oysters/?en","The silence of the molluscs","English",1
+"July 3, 2018","https://blog.nkb.fr/danger-cyclists/","Europe's most dangerous city for cyclists","English",1
+"May 2, 2018","bouffes-bluffantes","Pourquoi j'ai écrit « Bouffes Bluffantes »","français",0
+"April 23, 2018","froschfresser","Froschfresser!","Deutsch",0
+"April 18, 2018","everyones-a-media","Online, everyone's a media - Online journalism 3/3","English",0
+"April 17, 2018","sweatshop-integrated-newsroom","From digital sweatshops to the integrated newsroom - Online journalism 2/3","English",0
+"April 16, 2018","media-internet","The media and the internet: The history of a failure - Online journalism 1/3","English",0
+"April 13, 2018","denial","Denial","English",0
+"April 12, 2018","facing-evil","Facing evil","English",0
+"March 18, 2018","value-social-rank","Everything we know about price formation is wrong","English",0
+"March 14, 2018","global-trends-data","Global data sources","English",0
+"March 13, 2018","data-germany-europe","European and German data sources","English",0
+"February 25, 2018","macrine-et-pouton","La voie de Moscou","français",0
+"January 31, 2018","retour-a-quick","Retour à Quick","français",0
+"January 31, 2018","medias-numerique","Comment une industrie a raté le virage des données et du numérique","français",0
+"January 17, 2018","roots-of-fake-news","The roots of fake news","English",0
+"January 5, 2018","journalisme-post-verite","Le journalisme et la post-vérité","français",0
+"December 22, 2017","trust-transparency","Transparency does not beget trust - quite the opposite","English",0
+"December 4, 2017","how-i-overcame-fear-of-flying","How I overcame my fear of flying","English",0
+"December 3, 2017","development-aid","Why I'm still doing development aid","English",0
+"November 16, 2017","measuring-the-unmeasured","Measuring the unmeasured with data","English",0
+"November 1, 2017","leaving-google","Leaving Google: Here's how I did it.","English",0
+"October 9, 2017","the-magic-queendom-of-europe","The Magic Queendom of Europe","English",0
+"September 25, 2017","se-liberer-par-les-donnees","Il ne faut pas 'libérer les données'. Il faut se libérer par les données.","français",0
+"September 7, 2017","meyer-revisited","Meyer revisited","English",0
+"August 16, 2017","what-could-google-do","What could Google do? (If it cared about journalism)","English",0
+"July 19, 2017","ich-bin-deutscher","Ich bin jetzt Deutscher","Deutsch",0
+"July 19, 2017","airport-controls","Airport controls","English",0
+"July 3, 2017","humanism-racism","The Humanist Paradox","English",0
+"June 22, 2017","nouvelles-georgie","Cinq nouvelles absurdes de Géorgie","français",0
+"June 2, 2017","les-cles-pour-comprendre","Les clés pour comprendre","français",0
+"June 1, 2017","things-learned-jpp","Things learned in 5 years of Journalism++","English",0
+"April 14, 2017","tribunal","La parole d'un arabe","français",0
+"April 10, 2017","academia","The collapse of academia","English",0
+"March 31, 2017","collaboration","Collaboration in journalism","English",0
+"March 9, 2017","il-faut-boycotter-les-elections","Pourquoi il faut boycotter les élections françaises","français",0
+"March 8, 2017","lettre-a-mes-amis-2","Lettre à mes amis","français",0
+"January 29, 2017","inventing-the-future","Inventing the Future, by Nick Srnicek and Alex Williams","English",0
+"November 13, 2016","waiting-for-a-new-humanism","Waiting for a new Humanism","English",0
+"November 12, 2016","les-espoirs-inutiles","Les espoirs inutiles [nouvelle]","français",0
+"October 13, 2016","ten-years-datajournalism","Celebrating 10 years of datajournalism","English",0
+"September 25, 2016","datajournalism-in-the-posth-truth-public-sphere","Data-driven journalism in the post-truth public sphere","English",0
+"September 4, 2016","road-to-authoritarianism","The road to authoritarianism","English",0
+"August 20, 2016","eastern-europe","Eastern Europe","English",0
+"July 11, 2016","offshore-journalism","The Offshore Journalism Toolkit","English",0
+"June 27, 2016","open-data","The power of open data","English",0
+"May 15, 2016","legitimacy-power","The new legitimacy of power","English",0
+"May 11, 2016","informer-avec-des-donnees-structurees","Informer avec des données structurées","français",0
+"April 13, 2016","data-free","Free your data' is over. Now, we need data to be free.","English",0
+"April 10, 2016","when-to-engage-with-adversarial-organizations","When to engage with adversarial organizations","English",0
+"January 24, 2016","why-the-european-union-failed","Why the European Union failed","English",0
+"January 14, 2016","racist-cartoons","Racist cartoons","English",0
+"January 14, 2016","caricatures-racistes","Caricatures racistes","français",0
+"December 22, 2015","data-literacy","Don't ask too much from data literacy","English",0
+"December 8, 2015","confronting-authoritarianism","Confronting authoritarianism","English",0
+"November 28, 2015","la-logique-de-l-autoritarisme","La logique de l'autoritarisme","français",0
+"November 24, 2015","european-union","Living without the European Union","English",0
+"November 4, 2015","value-chain-data-news","The value chain of data in the news industry","English",0
+"September 20, 2015","individual-responsibility-and-climate-change","Individual responsibility and climate change","English",0
+"September 8, 2015","datajournalism","Datajournalism","English",0
+"August 31, 2015","datajournalism-rulings","String of rulings bodes ill for the future of journalism in Europe","English",0
+"August 25, 2015","European-journalism","Why there is no European journalism","English",0
+"August 16, 2015","dani-rodrik-globalization-paradox","Dani Rodrik's Globalization Paradox","English",0
+"July 27, 2015","satamedia","ECHR ruling might have a chilling effect on data journalism","English",0
+"July 25, 2015","speed","Speed and the slowdown of History","English",0
+"July 22, 2015","why-start-a-blog-in-2015","Why start a blog in 2015","English",0
+"July 15, 2015","Singularity","Singularity","English",0
+"May 10, 2015","journalism-schools","Journalism schools must become information management schools","English",0

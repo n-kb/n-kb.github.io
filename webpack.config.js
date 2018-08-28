@@ -19,7 +19,7 @@ let readFile = (filename) => {
                     delimiter: ","
                 })
                 csv.forEach(function(row) {
-                    if (row[1] != 'url') {
+                    if (row[1] != 'url' && row[4] == '0') {
                         routes.push("/" + row[1])
                     }
                 })
@@ -159,6 +159,7 @@ module.exports = readFile('./public/assets/articles.csv')
                             // fixes the URL of images
                             renderedRoute.html = replaceAll(renderedRoute.html, "./public/images/", "../public/images/");
                             renderedRoute.html = renderedRoute.html.replace("./dist/build.js", "../dist/build.js");
+                            renderedRoute.html = renderedRoute.html.replace("favicon.ico", "../favicon.ico");
                         }
                         return renderedRoute
                     },

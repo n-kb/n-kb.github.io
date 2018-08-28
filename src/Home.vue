@@ -135,6 +135,7 @@
 			        self.articles.push({
 			          "title": article.title,
 			          "lang": article.lang,
+			          "is_external": article.is_external,
 			          "url": article.url,
 			          "date": article_date.format("MMMM Do, YYYY"),
 			    	})
