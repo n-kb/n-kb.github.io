@@ -40,9 +40,9 @@
           </span>
         </a>
         &nbsp;
-        <a href="https://github.com/n-kb/" target="_blank">
+        <a href="https://blog.nkb.fr/atom.xml" target="_blank">
           <span class="icon">
-            <i class="fab fa-github"></i>
+            <i class="fas fa-rss"></i>
           </span>
         </a>
       </div>
