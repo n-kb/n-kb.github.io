@@ -1,6 +1,6 @@
-# blog-nkb-v2
+# A blog by Nicolas Kayser-Bril
 
-> NKB - blog
+I rewrote my blog from [Jekyll](https://github.com/n-kb/blog-v1) to Vue. Coming as a surprise to no one, it was a terrible idea.
 
 ## Build Setup
 
@@ -14,5 +14,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
