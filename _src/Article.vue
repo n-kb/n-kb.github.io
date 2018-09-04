@@ -67,10 +67,10 @@ export default {
 
     // Fetches the markdown file
     var self = this
-    var json_path = "./public/articles/" + slug + ".json"
+    var json_path = "./_public/articles/" + slug + ".json"
     var is_prerendered = false
     if (window.location.pathname.slice(-1) == "/") {
-      json_path = "../public/articles/" + slug + ".json"
+      json_path = "../_public/articles/" + slug + ".json"
       is_prerendered = true
     }
     json(json_path).then(function(data) {
@@ -79,10 +79,10 @@ export default {
         function replaceAll(str, find, replace) {
             return str.replace(new RegExp(find, 'g'), replace);
         }
-        self.source = replaceAll(self.source, "./public/images/", "../public/images/")
+        self.source = replaceAll(self.source, "./_public/images/", "../public/images/")
       }
       
-      self.headful.image = "https://blog.nkb.fr/public/images/" + data.image
+      self.headful.image = "https://blog.nkb.fr/_public/images/" + data.image
       self.title = data.title
       self.date = data.date
       self.intro = data.intro

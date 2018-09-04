@@ -11,7 +11,7 @@ etree.SubElement(new_feed, 'updated').text = datetime.utcnow().strftime("%Y-%m-%
 
 # Parses the CSV
 num_art = 0
-with open('public/assets/articles.csv') as csvfile:
+with open('_public/assets/articles.csv') as csvfile:
     csvreader = csv.DictReader(csvfile)
     for row in csvreader:
         if row['is_external'] == '1':

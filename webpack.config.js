@@ -29,13 +29,13 @@ let readFile = (filename) => {
     });
 }
 
-module.exports = readFile('./public/assets/articles.csv')
+module.exports = readFile('./_public/assets/articles.csv')
     .then(function(all_routes) {
         return {
-            entry: './src/main.js',
+            entry: './_src/main.js',
             output: {
-                path: path.resolve(__dirname, './dist'),
-                publicPath: '/dist/',
+                path: path.resolve(__dirname, './_dist'),
+                publicPath: '/_dist/',
                 filename: 'build.js'
             },
             module: {
@@ -136,9 +136,9 @@ module.exports = readFile('./public/assets/articles.csv')
                                   <meta itemprop="description" content="Data-driven journalist, author, trainer, public speaker and project manager.">
                                   <meta property="og:description" content="Data-driven journalist, author, trainer, public speaker and project manager.">
                                   <meta name="twitter:description" content="Data-driven journalist, author, trainer, public speaker and project manager.">
-                                  <meta itemprop="image" content="https://blog.nkb.fr/public/images/share.png">
-                                  <meta property="og:image" content="https://blog.nkb.fr/public/images/share.png">
-                                  <meta name="twitter:image" content="https://blog.nkb.fr/public/images/share.png">
+                                  <meta itemprop="image" content="https://blog.nkb.fr/_public/images/share.png">
+                                  <meta property="og:image" content="https://blog.nkb.fr/_public/images/share.png">
+                                  <meta name="twitter:image" content="https://blog.nkb.fr/_public/images/share.png">
                                   <meta name="author" content="Nicolas Kayser-Bril" />
                                   <meta name="twitter:card" content="summary_large_image">
                                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -146,7 +146,7 @@ module.exports = readFile('./public/assets/articles.csv')
                                 </head>
                                 <body>
                                   <div id="app"></div>
-                                  <script src="./dist/build.js"></script>
+                                  <script src="./_dist/build.js"></script>
 
                                   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
                                 </body>
