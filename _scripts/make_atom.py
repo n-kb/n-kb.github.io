@@ -27,5 +27,5 @@ with open('_public/assets/articles.csv') as csvfile:
         	break
 
 # Saves the feed
-with open('../atom.xml', 'w') as file:
+with open('atom.xml', 'w') as file:
     file.write(str(etree.tostring(new_feed, encoding='unicode')))
