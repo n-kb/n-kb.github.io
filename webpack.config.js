@@ -157,7 +157,7 @@ module.exports = readFile('./_public/assets/articles.csv')
                                 return str.replace(new RegExp(find, 'g'), replace);
                             }
                             // fixes the URL of images
-                            renderedRoute.html = replaceAll(renderedRoute.html, "\./_public/images/", "../_public/images/");
+                            renderedRoute.html = renderedRoute.html.replace("./_public/images/", "../_public/images/");
                             renderedRoute.html = renderedRoute.html.replace("./_dist/build.js", "../_dist/build.js");
                             renderedRoute.html = renderedRoute.html.replace("favicon.ico", "../favicon.ico");
                         }
