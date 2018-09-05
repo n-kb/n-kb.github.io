@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.dev.config.js --open --hot",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --hide-modules",
-    "deploy": "npm run build && python make_atom.py && git ac -m 'Updates' && git push github master"
+    "deploy": "npm run build && python scripts/make_atom.py && git ac -m 'Updates' && git push github master"
   },
   "dependencies": {
     "bulma": "^0.7.1",

@@ -11,7 +11,7 @@ etree.SubElement(new_feed, 'updated').text = datetime.utcnow().strftime("%Y-%m-%
 
 # Parses the CSV
 num_art = 0
-with open('_public/assets/articles.csv') as csvfile:
+with open('../_public/assets/articles.csv') as csvfile:
     csvreader = csv.DictReader(csvfile)
     for row in csvreader:
         if row['is_external'] == '1':
@@ -27,5 +27,5 @@ with open('_public/assets/articles.csv') as csvfile:
         	break
 
 # Saves the feed
-with open('atom.xml', 'w') as file:
+with open('../atom.xml', 'w') as file:
     file.write(str(etree.tostring(new_feed, encoding='unicode')))
