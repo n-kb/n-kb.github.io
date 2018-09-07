@@ -37,7 +37,7 @@ if lg == "fr":
 else:
 	newsletter_block = "\n\n<article class='message is-link' id='newsletter'>  <div class='message-header'>    <p>Newsletter</p>  </div>  <div class='message-body'>    <p>Write down your e-mail in the box below and you'll receive my next text directly in your inbox.</p>\n<form style='padding:3px;' action='https://tinyletter.com/nkb' method='post' target='popupwindow' onsubmit='window.open('https://tinyletter.com/nkb', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true'><p><input type='text' style='width:300px' placeholder='Your e-mail address here' name='email' id='tlemail' class='input'/></p><input type='hidden' value='1' name='embed'/><input type='submit' value='Submit' class='button is-link' /></form>  </div></article>"
 
-title = filename.replace(".draft.md", "").replace("../public/drafts/wip/", "")
+title = filename.replace(".draft.md", "").replace("public/drafts/wip/", "").replace("public/drafts/", "")
 
 txt = open(filename)
 
@@ -101,6 +101,6 @@ json_dict = {
 }
 
 # Creates the new file
-new_filename = "../public/articles/" + title + ".json"
+new_filename = "public/articles/" + title + ".json"
 with open(new_filename, 'w+') as fp:
 	json.dump(json_dict, fp)

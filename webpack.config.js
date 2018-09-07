@@ -14,15 +14,15 @@ let readFile = (filename) => {
             if (err) {
                 reject(err)
             } else {
-                var routes = ['/']
-                csv = parse(data, {
-                    delimiter: ","
-                })
-                csv.forEach(function(row) {
-                    if (row[1] != 'url' && row[4] == '0') {
-                        routes.push("/" + row[1])
-                    }
-                })
+                var routes = ['/', 'donnees-pouvoir']
+                // csv = parse(data, {
+                //     delimiter: ","
+                // })
+                // csv.forEach(function(row) {
+                //     if (row[1] != 'url' && row[4] == '0') {
+                //         routes.push("/" + row[1])
+                //     }
+                // })
                 resolve(routes)
             }
         });
