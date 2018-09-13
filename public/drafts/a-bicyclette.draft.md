@@ -57,7 +57,7 @@ L'extase d'un grand prix.
 
 Il n'y a pourtant guère
 Que leur pied droit qui bande
-Quand grisés ils l'enfonce
+Quand grisés ils l'enfoncent
 Au profond de leurs grandes
 Compagnes d'acier.
 
