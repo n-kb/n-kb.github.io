@@ -9,8 +9,8 @@
             {{ article.date }}
           </span>
         </div>
-        <div class="column is-1 is-hidden-mobile">
-          <span class="tag is-light">{{article.lang}}</span>
+        <div class="column is-2 is-hidden-mobile">
+          <span class="tag is-light" v-for="lang in article.lang.split(',')">{{lang}}</span>
         </div>
         <div class="column is-2 is-size-7 has-text-right is-hidden-mobile">
           {{ article.date }}
