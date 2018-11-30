@@ -79,7 +79,7 @@ export default {
         function replaceAll(str, find, replace) {
             return str.replace(new RegExp(find, 'g'), replace);
         }
-        self.source = replaceAll(self.source, "./public/images/", "../public/images/")
+        //self.source = replaceAll(self.source, "./public/images/", "../public/images/")
       }
       
       self.headful.image = "https://blog.nkb.fr/public/images/" + data.image
