@@ -88,6 +88,7 @@ if notes_counter > 0:
 
 # Searches for centuries en and fr
 txt_contents = re.sub(r'(\d\d)th', r'\1<sup>th</sup>', txt_contents)
+txt_contents = re.sub(r'(\d\d)st', r'\1<sup>st</sup>', txt_contents)
 txt_contents = re.sub(r'(\d\d)e', r'\1<sup>e</sup>', txt_contents)
 
 json_dict = {
