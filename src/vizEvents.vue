@@ -73,7 +73,7 @@ export default {
          .append('text')
          .attr('x', 0)
          .attr('y', function(d) {
-            return yScale(d) + 25;
+            return yScale(d);
           })
          .text(function(d) {
             return d;
@@ -129,7 +129,7 @@ export default {
 
       this.simulation = d3.forceSimulation()
                         .nodes(this.nodes)
-                        .force("charge_force", d3.forceManyBody().strength(1))
+                        .force("charge_force", d3.forceManyBody().strength(0))
                         .force("center_force", d3.forceCenter(this.width / 2, this.height / 2))
                         .force('collision', d3.forceCollide(6))
                         .on("tick", tickActions );
