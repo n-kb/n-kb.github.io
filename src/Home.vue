@@ -29,9 +29,13 @@
 						<p>
 							My name is <b>Nicolas Kayser-Bril</b> and I like to understand how things work. 
 						</p>
-						<p> To do so, I use data. I crunch, grind, chew and squeeze numbers to extract meaning and tell stories.</p>
+						<p>
+							I look at their histories and gather data. Some people say it's datajournalism, but I say it's just rigorous curiosity.
+						</p>
 
-						<p>That's called data-driven journalism and I'm proud to have been one of the first ones to practice it in Europe.</p>
+						<p>
+							I write <a href="https://www.placedeslibraires.fr/listeliv.php?base=paper&mots_recherche=Nicolas%20KAYSER-BRIL">books</a>, mostly about the history of food, and work as a reporter for <a href="algorithmwatch.org/">AlgorithmWatch</a>.
+						</p>
 
 						<p>I co-founded and managed <a href="http://jplusplus.org" target="_blank">Journalism++</a> from 2011 to 2017. Before that, I was head of datajournalism at <a target="_blank" href="http://owni.fr">Owni</a>.</p>
 
