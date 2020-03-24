@@ -11,7 +11,6 @@
 		      	</div>
 		      	<div class="column has-text-left">
 		      		<ul>
-		      			<li>data-driven</li>
 		      			<li class="interview is-uppercase has-text-weight-bold is-size-7">Journalist</li>
 		      			<li class="article is-uppercase has-text-weight-bold is-size-7">Author</li>
 		      			<li class="training is-uppercase has-text-weight-bold is-size-7">Trainer</li>
