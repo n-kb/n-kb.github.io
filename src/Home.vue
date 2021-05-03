@@ -34,7 +34,7 @@
 						</p>
 
 						<p>
-							I write <a href="https://www.placedeslibraires.fr/listeliv.php?base=paper&mots_recherche=Nicolas%20KAYSER-BRIL">books</a>, mostly about the history of food, and work as a reporter for <a href="algorithmwatch.org/">AlgorithmWatch</a>.
+							I write <a href="https://www.placedeslibraires.fr/listeliv.php?base=paper&mots_recherche=Nicolas%20KAYSER-BRIL">books</a>, mostly about the history of food, and work as a reporter for <a href="http://algorithmwatch.org/">AlgorithmWatch</a>.
 						</p>
 
 						<p>I co-founded and managed <a href="http://jplusplus.org" target="_blank">Journalism++</a> from 2011 to 2017. Before that, I was head of datajournalism at <a target="_blank" href="http://owni.fr">Owni</a>.</p>
