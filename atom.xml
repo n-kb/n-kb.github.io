@@ -1,4 +1,7 @@
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A blog by Nicolas Kayser-Bril</title><link href="https://blog.nkb.fr/atom.xml" rel="self"/><id>https://blog.nkb.fr/</id><updated>2021-05-21T08:39:15Z</updated><entry><updated>2021-05-20T22:00:00Z</updated><title>Dans le passé jusqu’au cou</title><link href="https://blog.nkb.fr/dans-le-passe/" rel="alternate"/><id>https://blog.nkb.fr/dans-le-passe/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A blog by Nicolas Kayser-Bril</title><link href="https://blog.nkb.fr/atom.xml" rel="self"/><id>https://blog.nkb.fr/</id><updated>2021-08-23T15:56:49Z</updated><entry><updated>2021-08-22T22:00:00Z</updated><title>Éteindre les Lumières</title><link href="https://blog.nkb.fr/eteindre-les-lumieres/" rel="alternate"/><id>https://blog.nkb.fr/eteindre-les-lumieres/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
+            Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
+            Read Éteindre les Lumières by following the link.
+        </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2021-05-20T22:00:00Z</updated><title>Dans le passé jusqu’au cou</title><link href="https://blog.nkb.fr/dans-le-passe/" rel="alternate"/><id>https://blog.nkb.fr/dans-le-passe/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
             Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
             Read Dans le passé jusqu’au cou by following the link.
         </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2020-04-24T22:00:00Z</updated><title>Money does not buy status. It's the other way around.</title><link href="https://blog.nkb.fr/money-social-scale/" rel="alternate"/><id>https://blog.nkb.fr/money-social-scale/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
@@ -25,7 +28,4 @@
         </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2018-12-19T23:00:00Z</updated><title>Cancer Risks</title><link href="http://blog.nkb.fr/cancer-risks/en/" rel="alternate"/><id>http://blog.nkb.fr/cancer-risks/en/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
             Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
             Read Cancer Risks by following the link.
-        </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2018-12-10T23:00:00Z</updated><title>The emergence of the mafia state</title><link href="https://blog.nkb.fr/mafia-state/" rel="alternate"/><id>https://blog.nkb.fr/mafia-state/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
-            Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
-            Read The emergence of the mafia state by following the link.
         </div></content><author><name>Nicolas Kayser-Bril</name></author></entry></feed>
