@@ -105,11 +105,16 @@ h1
 
 .article-content
   font-size: 1.2rem
-  line-height: 2rem
+  line-height: 2.25rem
   font-family: Georgia
 
 .byline
   font-variant: small-caps
   font-size: .8rem
   font-family: Georgia
+
+sup
+  vertical-align: top
+  position: relative
+  top: -0.5em
 </style>
