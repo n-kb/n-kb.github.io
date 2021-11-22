@@ -1,4 +1,7 @@
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A blog by Nicolas Kayser-Bril</title><link href="https://blog.nkb.fr/atom.xml" rel="self"/><id>https://blog.nkb.fr/</id><updated>2021-11-09T17:26:09Z</updated><entry><updated>2021-11-08T23:00:00Z</updated><title>Berlin, douze ans après</title><link href="https://blog.nkb.fr/berlin/" rel="alternate"/><id>https://blog.nkb.fr/berlin/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A blog by Nicolas Kayser-Bril</title><link href="https://blog.nkb.fr/atom.xml" rel="self"/><id>https://blog.nkb.fr/</id><updated>2021-11-22T19:50:39Z</updated><entry><updated>2021-11-21T23:00:00Z</updated><title>The colonial roots of French fries</title><link href="https://blog.nkb.fr/fats/" rel="alternate"/><id>https://blog.nkb.fr/fats/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
+            Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
+            Read The colonial roots of French fries by following the link.
+        </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2021-11-08T23:00:00Z</updated><title>Berlin, douze ans après</title><link href="https://blog.nkb.fr/berlin/" rel="alternate"/><id>https://blog.nkb.fr/berlin/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
             Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
             Read Berlin, douze ans après by following the link.
         </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2021-10-31T23:00:00Z</updated><title>L'automobile, stade suprême du patriarcat</title><link href="https://blog.nkb.fr/automobile-patriarcat/" rel="alternate"/><id>https://blog.nkb.fr/automobile-patriarcat/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
@@ -25,7 +28,4 @@
         </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2019-08-30T22:00:00Z</updated><title>Thunbergism is a thing</title><link href="https://blog.nkb.fr/thunbergism/" rel="alternate"/><id>https://blog.nkb.fr/thunbergism/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
             Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
             Read Thunbergism is a thing by following the link.
-        </div></content><author><name>Nicolas Kayser-Bril</name></author></entry><entry><updated>2019-01-14T23:00:00Z</updated><title>The purpose-free organization</title><link href="https://blog.nkb.fr/purpose-free-org/" rel="alternate"/><id>https://blog.nkb.fr/purpose-free-org/</id><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
-            Sorry, I failed to account for RSS readers when I built my website - and I personnally feed my RSS subscriptions directly to Pocket.
-            Read The purpose-free organization by following the link.
         </div></content><author><name>Nicolas Kayser-Bril</name></author></entry></feed>
