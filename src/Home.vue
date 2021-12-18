@@ -167,7 +167,7 @@
 				all_events: [],
 				articles: [],
 				blog_posts: 0,
-				lang: 'en',
+				lang: "en",
 				texts: {
 					"is_professionally_curious": {
 						"en": "is professionally curious",
@@ -205,9 +205,9 @@
 						"de": "arbeitet als Journalist"
 					},
 					"journalist_body": {
-						"en": '<p>I work as a journalist for <a href="https://algorithmwatch.org/">AlgorithmWatch</a>.</p><p>Since I started circa 2006, my stories were published in The Guardian, Der Spiegel, Le Monde, Mediapart and many others.</p><p>🏆 I was awarded the Excellence in Journalism for non-English websites (small) award by the Online News Association in 2010 with <a href="http://owni.fr/">OWNI.fr</a>, the Datajournalism Award (Best story) in 2014 and the European Press Prize (category innovation) in 2015 for <a href="https://www.themigrantsfiles.com/">The Migrants\' Files</a>.</p>',
-						"fr": '<p>Je suis journaliste pour <a href="https://algorithmwatch.org/">AlgorithmWatch</a>.</p><p>Depuis que j\'ai commencé vers 2006, mes articles ont été publiés dans The Guardian, Der Spiegel, Le Monde, Mediapart et d\'autres.</p><p>🏆 J\'ai reçu le prix de l\'Excellence in Journalism for non-English websites (small) de la Online News Association en 2010 avec <a href="http://owni.fr/">OWNI.fr</a>, le Datajournalism Award (Best story) en 2014 et le European Press Prize (catégorie innovation) en 2015 pour <a href="https://www.themigrantsfiles.com/">The Migrants\' Files</a>.</p>',
-						"de": '<p>Ich bin Journalist bei <a href="https://algorithmwatch.org/">AlgorithmWatch</a>.</p><p>Seit meinen ersten Artikeln circa 2006 wurde meine Arbeit in The Guardian, Der Spiegel, Le Monde, Mediapart und viel mehr veröffentlicht.</p><p>🏆 Meine Arbeit wurde mit dem Excellence in Journalism for non-English websites (small) Preis von der Online News Association 2010 mit <a href="http://owni.fr/">OWNI.fr</a> ausgezeichnet, sowie mit dem Datajournalism Award (Best story) 2014 und dem European Press Prize (Kategorie Innovation) 2015 für <a href="https://www.themigrantsfiles.com/">The Migrants\' Files</a>.</p>'
+						"en": '<p>I work as a journalist for <a href="https://algorithmwatch.org/">AlgorithmWatch</a>.</p><p>I pioneered data-driven journalism in Europe since circa 2006, at <a href="http://owni.fr/">OWNI.fr</a> and then at Journalism++, which I co-founded.</p><p>🏆 I was awarded the Excellence in Journalism for non-English websites (small) award by the Online News Association in 2010 with <a href="http://owni.fr/">OWNI</a>, the Datajournalism Award (Best story) in 2014 and the European Press Prize (category innovation) in 2015 for <a href="https://www.themigrantsfiles.com/">The Migrants\' Files</a>.</p>',
+						"fr": '<p>Je suis journaliste pour <a href="https://algorithmwatch.org/">AlgorithmWatch</a>.</p><p>Commençant vers 2006, j\'ai exploré le datajournalisme à <a href="http://owni.fr/">OWNI.fr</a> d\'abord, puis au sein de Journalism++, que j\'ai cofondé.</p><p>🏆 J\'ai reçu le prix de l\'Excellence in Journalism for non-English websites (small) de la Online News Association en 2010 avec <a href="http://owni.fr/">OWNI</a>, le Datajournalism Award (Best story) en 2014 et le European Press Prize (catégorie innovation) en 2015 pour <a href="https://www.themigrantsfiles.com/">The Migrants\' Files</a>.</p>',
+						"de": '<p>Ich bin Journalist bei <a href="https://algorithmwatch.org/">AlgorithmWatch</a>.</p><p>Ich habe den Weg für Datenjournalismus in Europa ab 2006 bereitet, zuerst bei <a href="http://owni.fr/">OWNI.fr</a>, dann bei Journalism++, die ich mitbegründet habe.</p><p>🏆 Meine Arbeit wurde mit dem Excellence in Journalism for non-English websites (small) Preis von der Online News Association 2010 mit <a href="http://owni.fr/">OWNI</a> ausgezeichnet, sowie mit dem Datajournalism Award (Best story) 2014 und dem European Press Prize (Kategorie Innovation) 2015 für <a href="https://www.themigrantsfiles.com/">The Migrants\' Files</a>.</p>'
 					},
 					"journalism_stories": {
 						"en" : "Here are some stories I'm proud of:",
@@ -243,6 +243,10 @@
 			}
 		},
 		created () {
+
+			var lang = navigator.language.substring(0,2)
+			if (["fr", "de"].indexOf(lang)) { this.switchLang(lang) }
+
 			var self = this
 			csv('./public/assets/articles.csv').then(function(data) {
 				data.forEach(function(article){
