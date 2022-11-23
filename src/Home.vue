@@ -180,9 +180,9 @@
 						"de": 'Er schreibt <span class="books">Bücher</span>, studiert als <span class="PhD">Doktorand</span>, arbeitet als <span class="journalist">Journalist</span>, <span class="teaches">doziert</span> und <span class="teaches">trainiert</span>, und er <span class="blog">blogt</span>.'
 					},
 					"subtitle_2": {
-						"en": 'You can follow him on <a target="_blank" href="http://twitter.com/nicolaskb">Twitter</a>, <a target="_blank" href="http://facebook.com/nicolas.kayser-bril">Facebook</a> or <a target="_blank" href="http://de.linkedin.com/pub/nicolas-kayser-bril/8/1a6/750/">LinkedIn</a>. Or send him an e-mail at hi@nkb.fr.',
-						"fr": 'Vous pouvez le suivre sur <a target="_blank" href="http://twitter.com/nicolaskb">Twitter</a>, <a target="_blank" href="http://facebook.com/nicolas.kayser-bril">Facebook</a> ou <a target="_blank" href="http://de.linkedin.com/pub/nicolas-kayser-bril/8/1a6/750/">LinkedIn</a>. Ou lui envoyer un e-mail à hi@nkb.fr.',
-						"de": 'Er ist auf <a target="_blank" href="http://twitter.com/nicolaskb">Twitter</a>, <a target="_blank" href="http://facebook.com/nicolas.kayser-bril">Facebook</a> oder <a target="_blank" href="http://de.linkedin.com/pub/nicolas-kayser-bril/8/1a6/750/">LinkedIn</a> zu folgen. Oder per Email unter hi@nkb.fr zu erreichen.'
+						"en": 'You can follow him on <a rel="me" href="https://social.nkb.fr/@foodstudies">Mastodon</a>, <a target="_blank" href="http://facebook.com/nicolas.kayser-bril">Facebook</a> or <a target="_blank" href="http://de.linkedin.com/pub/nicolas-kayser-bril/8/1a6/750/">LinkedIn</a>. Or send him an e-mail at hi@nkb.fr.',
+						"fr": 'Vous pouvez le suivre sur <a rel="me" href="https://social.nkb.fr/@foodstudies">Mastodon</a>, <a target="_blank" href="http://facebook.com/nicolas.kayser-bril">Facebook</a> ou <a target="_blank" href="http://de.linkedin.com/pub/nicolas-kayser-bril/8/1a6/750/">LinkedIn</a>. Ou lui envoyer un e-mail à hi@nkb.fr.',
+						"de": 'Er ist auf <a rel="me" href="https://social.nkb.fr/@foodstudies">Mastodon</a>, <a target="_blank" href="http://facebook.com/nicolas.kayser-bril">Facebook</a> oder <a target="_blank" href="http://de.linkedin.com/pub/nicolas-kayser-bril/8/1a6/750/">LinkedIn</a> zu folgen. Oder per Email unter hi@nkb.fr zu erreichen.'
 					},
 					"writes_books": {
 						"en": "writes books",
