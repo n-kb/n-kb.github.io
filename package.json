@@ -15,7 +15,7 @@
     "csv-loader": "^3.0.2",
     "csv-parse": "^2.5.0",
     "d3": "^5.5.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "papaparse": "^4.6.0",
     "vue": "^2.5.11",
     "vue-markdown": "^2.2.4",
